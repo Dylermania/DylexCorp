@@ -1,0 +1,102 @@
+html
+body {
+    padding: 0;
+    height: 100px;
+    margin: 0px;
+    /* overflow: hidden; */
+}
+h1
+h2
+h3
+h4
+h5
+h6 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: var(--first-color);
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.logo {
+    height: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+header ul > li {
+    margin: 0px 2px;
+    padding: 3px 5px;
+}
+header ul > li a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.signup {
+    padding: 7px 12px;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.header-banner {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.header-banner h6 {
+    background-color: coral;
+    border-radius: 20px;
+    text-align: center;
+    padding: 7px 10px;
+    font-size: 18px;
+}
+.header-banner h1::after{
+    content: '';
+    position: absolute;
+}
+
+.header-banner h1 {
+    font-size: 70px;
+    margin: 10px 0 10px 0;
+    background: linear-gradient(to right, #4acfee, #53f8c9, #02d79a, #6070fd, #2a46ff, #0099ff, #4acfee);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+.header-banner h5 {
+    font-size: 16px;
+}
+.header-banner button {
+    background-color: #000000;
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 30px;
+    margin-top: 10px;
+}
+
+/* -----Slider----- */
+#slider {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-top: 30px; 
+}
+#slider img {
+    width: 300px;
+    margin: 0 10px;
+    border-radius: 20px;
+
+}
